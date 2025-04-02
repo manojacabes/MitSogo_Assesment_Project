@@ -588,6 +588,7 @@
         border-left: 1px solid #FFFFFF33;
         height: 77px;
         transform: rotate(270deg);
+        padding: 0px 0px;
     }
 
     .css-1usuzwp-MuiButtonBase-root-MuiTab-root.Mui-selected {

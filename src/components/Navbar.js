@@ -7,7 +7,6 @@ import './Navbar.css'
 const Navbar = () => {
 
     const [click, setClick] = useState(false)
-    const handleClick = () => setClick(!click)
     const [color, setcolor] = useState(false)
     const closeMenu = () => setClick(false)
     const changeColor = () => {

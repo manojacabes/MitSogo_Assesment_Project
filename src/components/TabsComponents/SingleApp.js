@@ -1,12 +1,7 @@
-import React, { useState } from 'react'
+import React from 'react'
 import './Tabs.css'
 
 const SingleApp = () => {
-    const [email, setEmail] = useState();
-    const onChange = (e) => {
-        setEmail(e.target.value)
-    }
-    console.log('email :', email)
     return (
         <div className='SingleApp'>
             <div className='SingleAppContent'>

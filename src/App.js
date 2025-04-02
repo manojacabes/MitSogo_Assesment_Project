@@ -2,9 +2,7 @@
 import Navbar from './components/Navbar';
 import Hero from './components/Hero';
 import Scope from './components/scope';
-import About from './components/Tabs'
-import Testimonials from './components/Testimonials'
-import Demo from './components/Demo'
+import About from './components/Tabs';
 import Footer from './components/Footer'
 import './App.css';
 
@@ -15,8 +13,6 @@ function App() {
       <Hero />
       <Scope />
       <About />
-      {/* <Testimonials /> */}
-      {/* <Demo /> */}
       <Footer />
     </div>
   );

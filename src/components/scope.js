@@ -1,12 +1,8 @@
-import React, { useState } from 'react'
+import React from 'react'
 import './Scope.css'
 
 const Scope = () => {
-    const [email, setEmail] = useState();
-    const onChange = (e) => {
-        setEmail(e.target.value)
-    }
-    console.log('email :', email)
+
     return (
         <div className='hexNodeList'>
             <div className='contents'>

@@ -1,4 +1,4 @@
-import React, { useRef } from 'react';
+import React from 'react';
 import Box from '@mui/material/Box';
 import Tab from '@mui/material/Tab';
 import TabContext from '@mui/lab/TabContext';
@@ -10,32 +10,21 @@ import WebKiosk from './TabsComponents/WebKiosk';
 import DigitalSign from './TabsComponents/DigitalSign';
 import AsamKiosk from './TabsComponents/AsamKiosk';
 import './Scope.css';
-import { useState } from 'react';
 import { Swiper, SwiperSlide } from 'swiper/react';
 
-// Import Swiper styles
 import 'swiper/css';
 import 'swiper/css/pagination';
 import 'swiper/css/navigation';
 
-// import './styles.css';
-
-// import required modules
-import { Pagination, Autoplay, Navigation } from 'swiper/modules';
+import { Autoplay, Navigation } from 'swiper/modules';
 
 const Tabs = () => {
     const [value, setValue] = React.useState('1');
-    const [swiperRef, setSwiperRef] = React.useState(null);
+    // const [swiperRef, setSwiperRef] = React.useState(null);
     const [expandValue, setExpandValue] = React.useState(1)
     const handleChange = (event, newValue) => {
         setValue(newValue);
     };
-    const progressCircle = useRef(null);
-    const progressContent = useRef(null);
-    // const onAutoplayTimeLeft = (s, time, progress) => {
-    //     progressCircle.current.style.setProperty('--progress', 1 - progress);
-    //     progressContent.current.textContent = `${Math.ceil(time / 1000)}s`;
-    // };
     React.useEffect(() => { }, [expandValue])
     return (
         <div className='tabs'>
@@ -124,7 +113,7 @@ const Tabs = () => {
                 <h2 className='tabsh2'>Why should you choose Hexnode?</h2>
                 <div className='swip'>
                     <Swiper
-                        onSwiper={setSwiperRef}
+                        // onSwiper={setSwiperRef}
                         slidesPerView={1}
                         centeredSlides={true}
                         pagination={{
