@@ -293,6 +293,11 @@
     padding: 12px;
 }
 
+.platImage1 {
+    padding: 12px;
+    width: 15%
+}
+
 .platformBody {
     /* display: flex; */
 }
@@ -321,6 +326,11 @@
         color: #FFFFFF99;
         /* max-width: 300px; */
 
+    }
+
+    .platImage1 {
+        padding: 12px;
+        width: 17%;
     }
 
     .addImageText {
@@ -425,6 +435,11 @@
         font-size: 31px;
     }
 
+    .platImage1 {
+        padding: 12px;
+        width: 92%;
+    }
+
     .platformContent {
         font-size: 26px;
         font-weight: 700;
@@ -515,6 +530,14 @@
     .baseFooter {
         display: flex;
         justify-content: center;
+    }
+
+    .swiper-slide img {
+        display: block;
+        width: 152%;
+        height: 100%;
+        object-fit: cover;
+        border-radius: 20px 0px 0px 20px;
     }
 
     .tabs {

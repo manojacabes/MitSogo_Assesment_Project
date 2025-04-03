@@ -181,7 +181,7 @@ const Tabs = () => {
                         <img className='platImage' src={'https://static.hexnode.com/v2/assets/img/ads-pages/platform/ios.svg'} alt='loading' />
                         <img className='platImage' src={'https://static.hexnode.com/v2/assets/img/ads-pages/platform/android-tv.svg'} alt='loading' />
                         <img className='platImage' src={'https://static.hexnode.com/v2/assets/img/ads-pages/platform/apple-tv.svg'} alt='loading' />
-                        <img className='platImage' src={'https://www.hexnode.com/_next/image/?url=https%3A%2F%2Fstatic.hexnode.com%2Fv2%2Fassets%2Fimg%2Fads-pages%2Fplatform%2Famazon-fire.png&w=256&q=100'} alt='loading' />
+                        <img className='platImage1' src={'https://www.hexnode.com/_next/image/?url=https%3A%2F%2Fstatic.hexnode.com%2Fv2%2Fassets%2Fimg%2Fads-pages%2Fplatform%2Famazon-fire.png&w=256&q=100'} alt='loading' />
                     </div>
                 </div>
             </div>
